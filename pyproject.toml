@@ -3,14 +3,14 @@ name = "quarter-3"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+python = ">=3.12"
 dependencies = []
 [tool.poetry]
 name = "quarter-3"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+python = ">=3.12"
 
 # Define the main package or module folder
 packages = [{include = "quarter-3"}]  
