@@ -1,22 +1,12 @@
-[project]
-name = "quarter-3"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-python = ">=3.12"
-dependencies = []
 [tool.poetry]
 name = "quarter-3"
 version = "0.1.0"
 description = "Add your description here"
+authors = ["Maria Khan <mariapervaiz40@gmail.com>"]
 readme = "README.md"
-python = ">=3.12"
-
-# Define the main package or module folder
-packages = [{include = "quarter-3"}]  
 
 [tool.poetry.dependencies]
-python = ">=3.12"
+python = "^3.12"
 pandas = "*"
 streamlit = "*"
 openpyxl = "*"
