@@ -5,3 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+[tool.poetry]
+name = "quarter-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+
+# Define the main package or module folder
+packages = [{include = "quarter-3"}]  
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+pandas = "*"
+streamlit = "*"
+openpyxl = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
